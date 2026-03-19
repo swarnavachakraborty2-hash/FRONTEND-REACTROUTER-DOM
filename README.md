@@ -1,12 +1,41 @@
-# React + Vite
+## React Auth + GitHub Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that demonstrates authentication, global state management using Context API, and integration with the GitHub API to search user profiles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ User Authentication (Login/Signup logic)
 
-## Expanding the ESLint configuration
+ Personalized welcome message after login
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ GitHub User Search (via API)
+
+ Global State Management using Context API
+
+ Navigation using React Router
+
+ Clean and responsive UI
+ 
+## Tech Stack
+
+React.js
+
+React Router
+
+Context API
+
+JavaScript (ES6+)
+
+GitHub REST API
+
+Tailwind CSS 
+
+ ## How It Works
+
+Users can sign up or log in
+
+After login, a personalized welcome message is displayed
+
+Users can search for GitHub profiles by username
+
+Data is fetched dynamically using API
